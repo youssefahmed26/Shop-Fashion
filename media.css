@@ -1,0 +1,104 @@
+@media   (max-width:451px){
+    header{
+        background: #000000;
+        transition: all 1.2s ease;
+    }
+    #navbar{
+        width: 100%;
+        height: 110px;
+        display: block;
+        background: #99775b;
+    }
+    #navbar ul{
+        margin-top: 1rem;
+        margin-left: 20px;
+    }
+
+    header .content{
+        width: 100%;
+        height: 100vh;
+        background: url(./pexels-kai-pilger-996329.jpg) center center/cover no-repeat;
+    }
+    header .content h1{
+        margin-left: 80px;
+        color: #ffffff;
+    }
+    header .content p{
+        color: #ffffff;
+    }
+    .primary-text{
+        color: #cd7312;
+    }
+    .primary-text:hover{
+        color: #008cff;
+        transition: all .42s ease;
+    }
+    .btn-primary{
+        color: #000000;
+        transition: all 1.2s ease;
+        background-image: linear-gradient(202deg, #cd7312, #fff);
+    }
+    .btn-primary:hover{
+        color: #808080;
+        background-image: linear-gradient(102deg, #511e0d, #fff);
+        transition: all .90s ease;
+    }
+    /* end header */
+    /* start about */
+    #about{
+        width: 100%;
+        height: 100vh;
+        display: block;
+        
+    }
+    #about h1{
+        margin-bottom: 10px;
+    }
+    #about .about-content p{
+        margin-left: 10px;
+        font-size: 13px;
+        line-height: 1;
+    }
+    #about .about-content img{
+        width: 300px;
+        height: 60vh;
+    }
+    #gellery{
+        height: 375vh;
+    }
+    #gellery .photo-1,
+    #gellery .photo-2{
+        display: block;
+    }
+    /* start comments */
+    #comments{
+        width: 100%;
+        height: 250vh;
+    }
+    #comments .comments-col,
+    #comments .comments-clo{
+        display: block;
+    }
+    #comments .comments-col :hover,
+    #comments .comments-clo :hover{
+        background-color: #cd7312;
+        color: #fff;
+    }
+    /* end comments */
+    /* start contact */
+    #contact{
+        display: block;
+    }
+    #contact .contact-as{
+        display: block;
+    }
+    #contact .contact-as p{
+        line-height: 1.6;
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+    #contact .contact-as .map{
+        width: 300px;
+        height: 200px;
+    }
+}
